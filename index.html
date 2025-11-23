@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Inicio · Asilo Bethel</title>
+  <meta name="description" content="Asilo Bethel: Cuidado especializado para adultos mayores con amor, respeto y dignidad. Más de 5 años de experiencia.">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .hero {
+      background: 
+        linear-gradient(135deg, rgba(74, 144, 226, 0.4) 0%, rgba(53, 122, 189, 0.4) 100%), 
+        url('assets/img/hero.png') no-repeat center center;
+      background-size: cover;
+      color: white;
+      padding: 4rem 0;
+      text-align: center;
+      margin-bottom: 3rem;
+      position: relative;
+      min-height: 70vh; 
+      display: flex;
+      align-items: center;
+    }
+    .hero-content h2 {
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      margin-bottom: 1.5rem;
+    }
+    .hero-content p {
+      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+      margin-bottom: 2rem;
+      font-size: 1.3rem;
+    }
+    .hero {
+      background: 
+        linear-gradient(135deg, rgba(74, 144, 226, 0.4) 0%, rgba(53, 122, 189, 0.4) 100%), 
+        url('assets/img/hero.png') no-repeat center center/cover;
+    }
+    .hero.fallback-bg {
+      background: 
+        linear-gradient(135deg, rgba(74, 144, 226, 0.4) 0%, rgba(53, 122, 189, 0.4) 100%), 
+        url('assets/img/hero-bg.png') no-repeat center center/cover;
+    }
+    .hero.no-bg {
+      background: linear-gradient(135deg, #4a90e2 0%, #357abd 100%);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="header-content">
+        <div class="brand">
+          <img src="assets/img/logo.png" alt="Logotipo del Asilo Bethel" class="logo">
+          <h1>Asilo Bethel</h1>
+        </div>
+        <nav aria-label="Navegación principal">
+          <ul>
+            <li><a href="index.html" aria-current="page">Inicio</a></li>
+            <li><a href="nosotros.html">Nosotros</a></li>
+            <li><a href="servicios.html">Servicios</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+            <li><a href="eventos.html">Eventos</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero" id="heroSection">
+    <div class="container">
+      <div class="hero-content">
+        <h2>Cuidado con Amor y Dignidad</h2>
+        <p>Más de 5 años brindando atención especializada a adultos mayores en un ambiente familiar y cálido.</p>
+        <a href="contacto.html" class="btn">Solicitar Visita</a>
+        <a href="servicios.html" class="btn btn-outline" style="margin-left: 1rem;">Conocer Servicios</a>
+      </div>
+    </div>
+  </section>
+
+  <main class="container">
+    <div class="section-title center">
+      <h2>¿Por Qué Elegir Bethel?</h2>
+      <p>Entendemos las necesidades únicas de cada residente y nos adaptamos a ellas</p>
+    </div>
+
+    <div class="grid grid-3">
+      <div class="card">
+        <div class="feature-icon">👵</div>
+        <h3>Atención Personalizada</h3>
+        <p>Cada residente recibe cuidados adaptados a sus necesidades específicas y preferencias personales.</p>
+      </div>
+      
+      <div class="card">
+        <div class="feature-icon">🏥</div>
+        <h3>Asistencia Médica</h3>
+        <p>Contamos con personal médico especializado disponible las 24 horas del día.</p>
+      </div>
+      
+      <div class="card">
+        <div class="feature-icon">🍽️</div>
+        <h3>Alimentación Balanceada</h3>
+        <p>Menús diseñados por nutricionistas, adaptados a las necesidades dietéticas de cada residente.</p>
+      </div>
+    </div>
+
+    <div class="section-title center">
+      <h2>Nuestros Servicios</h2>
+      <p>Diseñamos experiencias pensando en el bienestar integral de nuestros residentes</p>
+    </div>
+
+    <div class="grid grid-3">
+      <div class="card">
+        <h3>Cuidado Residencial</h3>
+        <p>Habitaciones cómodas y seguras con asistencia las 24 horas para actividades diarias.</p>
+        <a href="servicios.html" class="btn mt-2">Más Información</a>
+      </div>
+      
+      <div class="card">
+        <h3>Terapias y Rehabilitación</h3>
+        <p>Programas de fisioterapia, terapia ocupacional y actividades cognitivas.</p>
+        <a href="servicios.html" class="btn mt-2">Ver Terapias</a>
+      </div>
+      
+      <div class="card">
+        <h3>Actividades Recreativas</h3>
+        <p>Talleres, excursiones y eventos sociales para mantener una vida activa y plena.</p>
+        <a href="eventos.html" class="btn mt-2">Ver Actividades</a>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-column">
+          <h3>Asilo Bethel</h3>
+          <p>Más de 5 años brindando cuidado especializado con amor y dignidad a adultos mayores.</p>
+        </div>
+        
+        <div class="footer-column">
+          <h3>Enlaces Rápidos</h3>
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="nosotros.html">Nosotros</a></li>
+            <li><a href="servicios.html">Servicios</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+            <li><a href="eventos.html">Eventos</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-column">
+          <h3>Contacto</h3>
+          <ul>
+            <li>Ciudad Juárez, Chihuahua, México</li>
+            <li>Tel: (656) 315 7939</li>
+            <li><a href="mailto:info@asilobethel.com">info@asilobethel.com</a></li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; 2025 Asilo Bethel. Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

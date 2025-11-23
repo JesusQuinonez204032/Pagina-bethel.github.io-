@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contacto · Asilo Bethel</title>
+  <meta name="description" content="Contáctanos para programar una visita, solicitar información o realizar donaciones. Estamos aquí para ayudarte.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="header-content">
+        <div class="brand">
+          <img src="assets/img/logo.png" alt="Logotipo del Asilo Bethel" class="logo">
+          <h1>Asilo Bethel</h1>
+        </div>
+        <nav aria-label="Navegación principal">
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="nosotros.html">Nosotros</a></li>
+            <li><a href="servicios.html">Servicios</a></li>
+            <li><a href="contacto.html" aria-current="page">Contacto</a></li>
+            <li><a href="eventos.html">Eventos</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <section class="page-header">
+    <div class="container">
+      <div class="page-header-content">
+        <h2>Contáctanos</h2>
+        <p>Estamos aquí para responder tus preguntas y apoyarte en el cuidado de tu ser querido</p>
+      </div>
+    </div>
+  </section>
+
+  <main class="container">
+    <div class="content-grid">
+      <div class="main-content">
+        <section class="card">
+          <div class="section-title">
+            <h2>Envíanos un Mensaje</h2>
+            <p>Completa el formulario y nos pondremos en contacto contigo a la brevedad</p>
+          </div>
+
+          <form action="#" method="post" class="contact-form">
+            <div class="form-group">
+              <label for="nombre">Nombre completo *</label>
+              <input type="text" id="nombre" name="nombre" class="form-control" required>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Correo electrónico *</label>
+              <input type="email" id="email" name="email" class="form-control" required>
+            </div>
+
+            <div class="form-group">
+              <label for="telefono">Teléfono *</label>
+              <input type="tel" id="telefono" name="telefono" class="form-control" required>
+            </div>
+
+            <div class="form-group">
+              <label for="parentesco">Parentesco con el adulto mayor</label>
+              <input type="text" id="parentesco" name="parentesco" class="form-control">
+            </div>
+
+            <div class="form-group">
+              <label for="asunto">Asunto *</label>
+              <select id="asunto" name="asunto" class="form-control" required>
+                <option value="">Selecciona un asunto</option>
+                <option value="visita">Solicitar visita</option>
+                <option value="informacion">Solicitar información</option>
+                <option value="admisiones">Proceso de admisión</option>
+                <option value="donaciones">Donaciones</option>
+                <option value="voluntariado">Voluntariado</option>
+                <option value="general">Consulta general</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="mensaje">Mensaje *</label>
+              <textarea id="mensaje" name="mensaje" class="form-control" rows="5" required></textarea>
+            </div>
+
+            <button type="submit" class="btn">Enviar Mensaje</button>
+          </form>
+        </section>
+      </div>
+
+      <aside class="sidebar">
+        <h3>Información de Contacto</h3>
+        <div class="contact-item">
+          <div class="contact-icon">📍</div>
+          <div class="contact-details">
+            <h3>Dirección</h3>
+            <p>Calle Cayetano Lopez #662<br>Ciudad Juárez, Chihuahua, México</p>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <div class="contact-icon">📞</div>
+          <div class="contact-details">
+            <h3>Teléfono</h3>
+            <p><a href="tel:+526561234567">(656) 3157939</a></p>
+            <p><small>Línea de emergencias 24/7</small></p>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <div class="contact-icon">✉️</div>
+          <div class="contact-details">
+            <h3>Email</h3>
+            <p><a href="mailto:info@asilobethel.com">info@asilobethel.com</a></p>
+            <p><a href="mailto:admisiones@asilobethel.com">admisiones@asilobethel.com</a></p>
+          </div>
+        </div>
+
+        <h3 class="mt-3">Horario de Atención</h3>
+        <ul>
+          <li>Lunes a Viernes: 8:00 - 18:00</li>
+          <li>Sábados: 9:00 - 14:00</li>
+          <li>Domingos: Solo visitas programadas</li>
+        </ul>
+
+        <div class="banner banner-info mt-3">
+          <h3>¿Necesitas ayuda inmediata?</h3>
+          <p>Nuestro equipo de emergencias está disponible las 24 horas.</p>
+          <a href="tel:+526563157939" class="btn mt-2">Llamar Ahora</a>
+        </div>
+      </aside>
+    </div>
+
+    <section class="card mt-4">
+      <div class="section-title center">
+        <h2>¿Prefieres otro método de contacto?</h2>
+        <p>Tenemos varias opciones para que elijas la que más te convenga</p>
+      </div>
+
+      <div class="action-buttons">
+        <a href="tel:+526563157939" class="action-btn">
+          <div class="action-icon">📞</div>
+          <h3>Llamada Telefónica</h3>
+          <p>Disponible en horario de oficina</p>
+        </a>
+
+        <a href="https://wa.me/526563157939" class="action-btn" target="_blank">
+          <div class="action-icon">💬</div>
+          <h3>WhatsApp</h3>
+          <p>Respuesta rápida</p>
+        </a>
+
+        <a href="mailto:info@asilobethel.com" class="action-btn">
+          <div class="action-icon">✉️</div>
+          <h3>Correo Electrónico</h3>
+          <p>Respondemos en 24 horas</p>
+        </a>
+
+        <a href="#" class="action-btn">
+          <div class="action-icon">👥</div>
+          <h3>Visita Personal</h3>
+          <p>Programa una cita</p>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-column">
+          <h3>Asilo Bethel</h3>
+          <p>Más de 5 años brindando cuidado especializado con amor y dignidad a adultos mayores.</p>
+        </div>
+        
+        <div class="footer-column">
+          <h3>Enlaces Rápidos</h3>
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="nosotros.html">Nosotros</a></li>
+            <li><a href="servicios.html">Servicios</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+            <li><a href="eventos.html">Eventos</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-column">
+          <h3>Contacto</h3>
+          <ul>
+            <li>Ciudad Juárez, Chihuahua, México</li>
+            <li>Tel: (656) 315 79 39</li>
+            <li><a href="mailto:info@asilobethel.com">info@asilobethel.com</a></li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; 2025 Asilo Bethel. Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
